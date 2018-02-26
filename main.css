@@ -1,0 +1,47 @@
+.hdr {
+	width: 100%;
+	margin: auto;
+	margin-bottom:0;
+}
+
+.badge-p {
+  min-height: 130px;
+  padding: 10px;
+}
+
+.badge-img {
+  max-height: 150px;
+  position: relative;
+  top: 0;
+  transition: top ease 0.5s;
+}
+
+.badge-img:hover {
+  top: -10px;
+}
+
+
+.badge-button {
+  margin: 10px;
+}
+
+.header {
+  font-size: 25pt;
+  position: relative;
+  color: #444649;
+  position: relative;
+  margin-bottom: 10px;
+}
+
+.header-bar {
+  margin:auto;
+  width: 70px;
+  height: 4px;
+  background: #444649;
+  margin-bottom: 20px;
+}
+
+
+.animated.slide-in-left {
+  animation: slideInLeft .75s ease both;
+}
